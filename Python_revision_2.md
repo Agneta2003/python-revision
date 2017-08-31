@@ -1,19 +1,22 @@
-# Python Revision :dragon_face:
-## Strings
-1. Ask user for an 8 letter word 
-    * and print only the 5th letter
-    *  Do the same as above but now print letters 3 to 5
-    *  Now print the word in reverse
-1. ask the user for two words and save them as strings. Now print as one string
-2. Ask the user to enter a word and write a procedure to count all the letter a's
-3. Modify the procedure to count all the vowels in the word
+This is the code i made for qs 2
 
-## Lists
-1. use lists to find all the unique letters in a sentence
-2. Use lists to find all repeated words in a sentence
-    * print out the number of times they are repeated
-3. Replace all the vowels in a sentence with asterisks
-4. Simulate a text compression algorithm by extraction the 3 most common words in a sentence and replacing them with numbers.
+list1=[]
+#a="a","e","i","o","u"
+b=input("enter a sentence ")
+newlist=list(b)
+newlist.append(b)
+print(newlist)
+count1=newlist.count("e")
+print(count1)
 
 
-![Smile](http://www.kdnuggets.com/images/cartoon-deep-learning-2nd-place-coffeemaker.jpg)
+And this is the code i made for qs 1
+
+list1=[]
+letter="a"
+word=input("Please enter a 8 letter word")
+count=letter.count(word)
+print(count)
+word1=input("Plese enter a 3-5 letter word")
+print(word1[1])
+print(word[::-1])
